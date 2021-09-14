@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.bikereg.com/api/search?name=The%20Grand&states=IA&year=2021
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.7.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/8.5
+      Set-Cookie:
+      - ASP.NET_SessionId=50b5ag3hq24cox2lop03csy4; path=/; secure; HttpOnly; SameSite=None
+      - SendSameSiteCookies=1; path=/; secure; HttpOnly; SameSite=None
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Strict-Transport-Security:
+      - max-age=31536000
+      Date:
+      - Tue, 14 Sep 2021 21:46:51 GMT
+      Content-Length:
+      - '7233'
+    body:
+      encoding: UTF-8
+      string: '{"CompletionTime":0,"MatchingEvents":[{"Categories":[{"CategoryID":592123,"CategoryName":"Friday
+        Night Women''s Clinic @ The Grand","Distance":"   ","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000},{"EntryFee":0.0000}],"FieldLimit":30,"StartTime":"16:45:00"},{"CategoryID":592091,"CategoryName":"Men:
+        Masters 35+","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592092,"CategoryName":"Men:
+        Masters 45+","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592093,"CategoryName":"Men:
+        Masters 55+","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592097,"CategoryName":"Women:
+        Juniors 9 - 12 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"11:25:00"},{"CategoryID":592099,"CategoryName":"Women:
+        Juniors 13 - 14 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"11:25:00"},{"CategoryID":592098,"CategoryName":"Women:
+        Juniors 15 - 18 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"11:25:00"},{"CategoryID":592096,"CategoryName":"Men:
+        Juniors 9 - 12 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"11:25:00"},{"CategoryID":592094,"CategoryName":"Men:
+        Juniors 13 - 14 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"11:25:00"},{"CategoryID":592095,"CategoryName":"Men:
+        Juniors 15 - 18 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"11:25:00"},{"CategoryID":592100,"CategoryName":"Men:
+        Cat 3\/4","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"13:00:00"},{"CategoryID":592102,"CategoryName":"Women:
+        Cat 1\/2\/3 (p\/b Merchants Bonding)","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"14:00:00"},{"CategoryID":592101,"CategoryName":"Women:
+        Cat 3\/4\/5 (p\/b Merchants Bonding)","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"14:00:00"},{"CategoryID":592103,"CategoryName":"Women:
+        Masters 35+ (p\/b Merchants Bonding)","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"14:00:00"},{"CategoryID":592104,"CategoryName":"Women:
+        Masters 45+ (p\/b Merchants Bonding)","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"14:00:00"},{"CategoryID":592105,"CategoryName":"Men:
+        Cat 1\/2\/3","Distance":"60 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"15:00:00"},{"CategoryID":592106,"CategoryName":"Men:
+        Cat 4\/5","Distance":"40 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"16:15:00"},{"CategoryID":592107,"CategoryName":"Men:
+        Masters 35+","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"09:25:00"},{"CategoryID":592108,"CategoryName":"Men:
+        Masters 45+","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"09:25:00"},{"CategoryID":592109,"CategoryName":"Men:
+        Masters 55+","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"09:25:00"},{"CategoryID":592110,"CategoryName":"Women:
+        Juniors 9 -12 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592112,"CategoryName":"Women:
+        Juniors 13 - 14 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592111,"CategoryName":"Women:
+        Juniors 15 - 18 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592113,"CategoryName":"Men:
+        Juniors 9 - 12 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592114,"CategoryName":"Men:
+        Juniors 13 - 14 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592115,"CategoryName":"Men:
+        Juniors 15 - 18 (p\/b Bike Rags)","Distance":"30 minutes","EntryFee":0.0000,"EntryFees":[{"EntryFee":0.0000}],"FieldLimit":0,"StartTime":"10:25:00"},{"CategoryID":592116,"CategoryName":"Men:
+        Cat 3\/4","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"12:00:00"},{"CategoryID":592117,"CategoryName":"Women:
+        Cat 3\/4\/5 (p\/b Merchants Bonding)","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"13:00:00"},{"CategoryID":592118,"CategoryName":"Women:
+        Cat 1\/2\/3 (p\/b Merchants Bonding)","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"13:00:00"},{"CategoryID":592119,"CategoryName":"Women:
+        Masters 35+ (p\/b Merchants Bonding)","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"13:00:00"},{"CategoryID":592120,"CategoryName":"Women:
+        Masters 45+ (p\/b Merchants Bonding)","Distance":"45 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"13:00:00"},{"CategoryID":592121,"CategoryName":"Men:
+        Cat 1\/2\/3","Distance":"60 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"14:00:00"},{"CategoryID":592122,"CategoryName":"Men:
+        Cat 4\/5","Distance":"40 minutes","EntryFee":25.0000,"EntryFees":[{"EntryFee":25.0000},{"EntryFee":35.0000}],"FieldLimit":0,"StartTime":"15:15:00"}],"Distance":0,"EventAddress":"6214
+        Grand Ave","EventCity":"Des Moines","EventDate":"\/Date(1634961600000-0400)\/","EventEndDate":"\/Date(1635048000000-0400)\/","EventId":51525,"EventName":"The
+        Grand","EventNotes":"","EventPermalink":"http:\/\/www.BikeReg.com\/51525","EventState":"IA","EventTypes":["Cyclocross"],"EventUrl":"http:\/\/www.BikeReg.com\/the-grand","EventWebsite":"","EventZip":"50312","Latitude":41.582645,"Longitude":-93.691719,"Permit":"2021-6204","PledgeRegUrl":null,"PresentedBy":"","RegCloseDate":"\/Date(1634860800000-0400)\/","RegOpenDate":"\/Date(1630469700000-0400)\/"}],"ResultCount":1}'
+  recorded_at: Tue, 14 Sep 2021 21:47:00 GMT
+recorded_with: VCR 6.0.0
