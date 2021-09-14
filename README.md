@@ -1,6 +1,6 @@
 # BikeReg API Rubygem
 
-[![Build Status](https://github.com/scottolsen/bike_reg/actions/workflows/Specs/badge.svg)](https://github.com/scottolsen/bike_reg/actions)
+[![Build Status](https://github.com/scottolsen/bike_reg/workflows/Specs/badge.svg)](https://github.com/scottolsen/bike_reg/actions)
 
 Simple gem to hit the [BikeReg
 API](https://www.bikereg.com/api/EventSearchDoc.aspx) to search for events.
