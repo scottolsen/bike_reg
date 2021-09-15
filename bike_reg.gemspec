@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = BikeReg::VERSION
   spec.authors       = ['Scott Olsen']
   spec.email         = ['solsen300@gmail.com']
-  spec.homepage      = 'https://github.com/scottolsen/bike-reg'
+  spec.homepage      = 'https://github.com/scottolsen/bike_reg'
   spec.summary       = 'Gem to hit the BikeReg.com API'
   spec.description   = 'Gem to hit the BikeReg.com API. BikeReg API docs here https://www.bikereg.com/api/EventSearchDoc.aspx'
   spec.license       = 'MIT'
