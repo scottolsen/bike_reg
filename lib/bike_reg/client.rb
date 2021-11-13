@@ -8,6 +8,10 @@ module BikeReg
       EventResource.new(self)
     end
 
+    def registrations
+      RegistrationResource.new(self)
+    end
+
     def connection
       @connection ||= Faraday.new(BASE_URL) do |conn|
         conn.request :json

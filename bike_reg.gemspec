@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'faraday', '~> 1.7'
   spec.add_dependency 'faraday_middleware', '~> 1.1'
+  spec.add_dependency 'kimurai', '1.4'
 end

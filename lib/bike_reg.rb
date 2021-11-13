@@ -10,8 +10,11 @@ module BikeReg
   autoload :Error, 'bike_reg/error'
   autoload :Object, 'bike_reg/object'
   autoload :Resource, 'bike_reg/resource'
+  autoload :Scraper, 'bike_reg/scraper'
 
   autoload :EventResource, 'bike_reg/resources/event_resource'
+  autoload :RegistrationResource, 'bike_reg/resources/registration_resource'
 
   autoload :Event, 'bike_reg/objects/event'
+  autoload :Registration, 'bike_reg/objects/registration'
 end

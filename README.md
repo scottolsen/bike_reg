@@ -25,8 +25,12 @@ Or install it yourself as:
 
 ```ruby
 client = BikeReg::Client.new
+```
 
-events = client.event.search
+### Events
+
+```ruby
+events = client.event.search(states: 'IA', eventtype: 'cyclocross')
 #=> BikeReg::Collection
 
 events.total
@@ -34,7 +38,28 @@ events.total
 
 events.data
 #=> [#<BikeReg::Event>, #<BikeReg::Event>]
-````
+
+events.data[0].EventName
+#=> 'The Grand'
+```
+
+### Registrations
+
+You need both the event id and category id.
+
+```ruby
+registrations = client.registrations.all(event_id: 123, category_id: 456)
+#=> BikeReg::Collection
+
+registrations.total
+#=> 43
+
+registrations.data
+#=> [#<BikeReg::Registration>, #<BikeReg::Registration>]
+
+registrations.data[0].name
+#=> 'Lance Armstrong'
+```
 
 ## Development
 

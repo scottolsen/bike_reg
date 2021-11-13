@@ -1,4 +1,6 @@
 AllCops:
+  Exclude:
+    - lib/bike_reg/scraper.rb
   TargetRubyVersion: 2.5
 
 Layout/LineLength:
