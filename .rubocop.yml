@@ -1,4 +1,5 @@
 AllCops:
+  NewCops: enable
   Exclude:
     - lib/bike_reg/scraper.rb
   TargetRubyVersion: 2.5
