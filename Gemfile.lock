@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bike_reg (0.2.0)
+    bike_reg (0.2.1)
       faraday (~> 1.7)
       faraday_middleware (~> 1.1)
       kimurai (= 1.4)
@@ -41,7 +41,7 @@ GEM
     diff-lcs (1.4.4)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    faraday (1.7.1)
+    faraday (1.8.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
@@ -60,7 +60,7 @@ GEM
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
-    faraday_middleware (1.1.0)
+    faraday_middleware (1.2.0)
       faraday (~> 1.0)
     hashdiff (1.0.1)
     headless (2.3.1)

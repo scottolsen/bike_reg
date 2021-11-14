@@ -1,3 +1,7 @@
+## [0.2.1] - 2021-11-14
+
+- Send date back in ISO via `event_date` and `event_end_date`
+
 ## [0.2.0] - 2021-11-13
 
 - Adds ability to scrape registrations
