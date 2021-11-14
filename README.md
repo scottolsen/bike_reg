@@ -39,7 +39,7 @@ events.total
 events.data
 #=> [#<BikeReg::Event>, #<BikeReg::Event>]
 
-events.data[0].EventName
+events.data[0].event_name
 #=> 'The Grand'
 ```
 

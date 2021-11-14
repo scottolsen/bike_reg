@@ -11,8 +11,8 @@ RSpec.describe BikeReg::EventResource do
         expect(events.class).to eq(BikeReg::Collection)
         expect(events.data.first.class).to eq(BikeReg::Event)
         expect(events.total).to eq(1)
-        expect(events.data.first.EventName).to eq('The Grand')
-        expect(events.data.first.event_date).to eq('2021-10-23')
+        expect(events.data.first.event_name).to eq('The Grand')
+        expect(events.data.first.event_starts_at).to eq('2021-10-23')
       end
     end
 

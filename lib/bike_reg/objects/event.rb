@@ -3,16 +3,16 @@
 module BikeReg
   class Event < Object
     # "/Date(1637384400000-0500)/"
-    def event_date
+    def event_starts_at
       ConvertDate
-        .new(self.EventDate)
+        .new(event_date)
         .utc_date
         .to_s
     end
 
-    def event_end_date
+    def event_ends_at
       ConvertDate
-        .new(self.EventEndDate)
+        .new(event_end_date)
         .utc_date
         .to_s
     end
