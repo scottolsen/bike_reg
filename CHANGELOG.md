@@ -1,3 +1,7 @@
+## [0.3.0] - 2021-11-14
+
+- All the keys are now in snakecase
+
 ## [0.2.1] - 2021-11-14
 
 - Send date back in ISO via `event_date` and `event_end_date`
